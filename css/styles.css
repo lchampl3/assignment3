@@ -9,10 +9,16 @@ li {
 
 
 
+@media screen and (max-width: 30rem) {
+    ol {
+        color:darkmagenta
+    }
+}
 
 
-
-
+a:hover {
+    font-size: 40px
+}
 
 
 
