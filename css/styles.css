@@ -1,8 +1,16 @@
 body {
     background-color: antiquewhite;
     font-family:sans-serif;
+    display: flex;
 }
-
+@media screen and (max-width: 30rem) {
+    header,
+    main,
+    footer {
+        flex-direction: column;
+        
+    }
+}
 li {
     color: peru;
 }
