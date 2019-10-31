@@ -20,20 +20,56 @@ a:hover {
     font-size: 40px
 }
 
+.container {
 
+/*    width: 700px;*/
+    height: 200px;
 
+    display: flex;
+    
+/*    flex-direction default is row */
+/*    flex-dirsection: row; */
+    
+/*    flex-wrap default is nowrap */
+    flex-wrap: wrap; 
+        
+/*    justify-content default is flex-start, applies to main-axis */
+/*    justify-content: flex-end; */
+    justify-content:space-around 
+    
+/*    align-items default is stretch, applies to cross-axis */
+/*    align-items: flex-end; */
+    
+/*    align-content default is stretch, only applies if multiple lines present */
+/*    align-content: center;*/
+    
+/*    flex-flow shorthand for combining direction and wrap */
+/*    flex-flow: column nowrap; */
+    
+/*    flex-grow */
+/*    flex-grow: ;*/
+    
+/*    flex-shrink */
+/*    flex-shrink: ;*/
 
+/*    flex-basis */
+/*    flex-basis: ;*/
 
+/*    order */
+/*    order: ;*/
+    
+/*    align-self */
+/*    align-self: ;*/
+    
+}
 
-
-
-
-
-
-
-
-
-
+.container__item {
+    
+/*    flex-basis default is auto */
+/*    flex-basis: 30%; */
+    width: 100px;
+    height: 100px;
+}
 
 
 
