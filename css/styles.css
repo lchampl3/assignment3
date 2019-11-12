@@ -2,92 +2,44 @@ body {
     background-color: antiquewhite;
     font-family:sans-serif;
     display: flex;
+    flex-direction: column
 }
-@media screen and (max-width: 30rem) {
-    header,
-    main,
-    footer {
-        flex-direction: column;
-        
-    }
-}
+      
 li {
     color: peru;
 }
 
-
-
-@media screen and (max-width: 30rem) {
-    ol {
-        color:darkmagenta
-    }
-}
-
-
-a:hover {
-    font-size: 40px
-}
-
-.container {
-
-/*    width: 700px;*/
-    height: 200px;
-
+header {
     display: flex;
-    
-/*    flex-direction default is row */
-/*    flex-dirsection: row; */
-    
-/*    flex-wrap default is nowrap */
-    flex-wrap: wrap; 
-        
-/*    justify-content default is flex-start, applies to main-axis */
-/*    justify-content: flex-end; */
-    justify-content:space-around 
-    
-/*    align-items default is stretch, applies to cross-axis */
-/*    align-items: flex-end; */
-    
-/*    align-content default is stretch, only applies if multiple lines present */
-/*    align-content: center;*/
-    
-/*    flex-flow shorthand for combining direction and wrap */
-/*    flex-flow: column nowrap; */
-    
-/*    flex-grow */
-/*    flex-grow: ;*/
-    
-/*    flex-shrink */
-/*    flex-shrink: ;*/
 
-/*    flex-basis */
-/*    flex-basis: ;*/
-
-/*    order */
-/*    order: ;*/
+}
+header nav {
     
-/*    align-self */
-/*    align-self: ;*/
-    
+    justify-content: flex-end;
+}
+/*
+.navo {
+    text-align: flex-end;
+    flex:1
+}
+*/
+.item1 {
+    width: 400px;
+/*    flex:1;*/
+}
+.item2 {
+    width: 400px;
+/*    flex:1;*/
+}
+.item3 {
+    width: 400px;
+/*    flex:1;*/
 }
 
-.container__item {
-    
-/*    flex-basis default is auto */
-/*    flex-basis: 30%; */
-    width: 100px;
-    height: 100px;
+.indexflex {
+    display:flex;
+    justify-content: space-around
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .good-boi {
